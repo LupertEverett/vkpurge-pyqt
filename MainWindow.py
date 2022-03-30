@@ -85,7 +85,7 @@ class MainWindow(QDialog):
 
     def read_process_output(self):
         output = bytearray(self.list_process.readAllStandardOutput())
-        self.kernels = output.decode("UTF-8").strip().split(" ")
+        self.kernels = output.decode("UTF-8").strip().split("\n")
 
     def do_refresh_list(self):
         self.refresh_button.setEnabled(False)
