@@ -28,5 +28,4 @@ This project is not affiliated with Void Linux in any way.
     python3 main.py
 
 ## Notes
-* The removal window might or might not write the console output in it, I couldn't test it further because I've run out of removable kernels. It should work otherwise.
 * You can use Shift + Left Click to select multiple kernels in the list.
