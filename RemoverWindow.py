@@ -47,6 +47,7 @@ class RemoverWindow(QDialog):
     def on_process_finished(self, exit_code, exit_status):
         if exit_code == 0:
             self.status_label.setText("Removal successfully completed!")
+            self.output_text_edit.appendPlainText("Removal successful!")
         elif exit_code == 127:
             self.status_label.setText("Authorization failed. Please try again.")
         else:
@@ -62,4 +63,4 @@ class RemoverWindow(QDialog):
 
     def read_process_output(self):
         output = bytearray(self.process.readAllStandardOutput())
-        self.output_text_edit.setPlainText(output.decode("UTF-8").strip())
+        self.output_text_edit.appendPlainText(output.decode("UTF-8").strip())
