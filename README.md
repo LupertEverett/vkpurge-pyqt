@@ -18,9 +18,13 @@ This project is not affiliated with Void Linux in any way.
 
 ## How to use
 1. Install the prerequisites
+
     sudo xbps-install -Su python3 python3-PyQt5
+
 2. Clone this repo
+
 3. Switch to the newly created directory and run main.py
+
     python3 main.py
 
 ## Notes
