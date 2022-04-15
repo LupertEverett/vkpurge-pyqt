@@ -4,11 +4,15 @@ This little program is basically just a GUI wrapper/frontend for the [Void Linux
 This project is not affiliated with Void Linux in any way.
 
 <p align="center">
-<img src="https://imgur.com/x3jLouz.png" width="560" ><br/>
+<img src="https://imgur.com/7KexTZ6.png" width="560" ><br/>
 </p>
 
 <p align="center">
-<img src="https://imgur.com/cwXAavG.png" width="560" ><br/>
+<img src="https://imgur.com/ofnCl3J.png" width="560" ><br/>
+</p>
+
+<p align="center">
+<img src="https://imgur.com/zTsKE1q.png" width="560" ><br/>
 </p>
 
 ## Required Packages
